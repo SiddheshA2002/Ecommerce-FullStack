@@ -93,3 +93,4 @@ INSERT INTO products (name, description, price, category_id, stock_quantity, fea
 ('Yoga Mat', 'Non-slip premium yoga mat', 29.99, 5, 120, FALSE),
 ('Skincare Set', 'Complete daily skincare routine', 79.99, 6, 70, TRUE),
 ('Perfume', 'Luxury fragrance for everyday wear', 59.99, 6, 45, FALSE);
+

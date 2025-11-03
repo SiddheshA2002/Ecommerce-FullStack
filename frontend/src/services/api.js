@@ -49,10 +49,15 @@ export const productAPI = {
   createProduct: (productData) => api.post('/products', productData),
   updateProduct: (id, productData) => api.put(`/products/${id}`, productData),
   deleteProduct: (id) => api.delete(`/products/${id}`),
+  getAdminStats: () => api.get('/admin/stats'),
 };
 
 export const orderAPI = {
   createOrder: (orderData) => api.post('/orders', orderData),
 };
+
+
+
+
 
 export default api;
